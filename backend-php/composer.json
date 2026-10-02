@@ -1,0 +1,22 @@
+{
+    "name": "fitforever/backend",
+    "description": "FitForever PHP Backend API",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Fitforever\\Backend\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vikash",
+            "email": "vikashpal2806@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vlucas/phpdotenv": "^5.7",
+        "firebase/php-jwt": "^7.2",
+        "phpmailer/phpmailer": "^7.1"
+    }
+}

@@ -1,0 +1,13 @@
+# Old Node.js backend
+backend/
+
+# PHP secrets
+backend-php/.env
+
+# Dependencies
+backend-php/vendor/
+backend-php/node_modules/
+frontend/node_modules/
+
+# Build files
+frontend/dist/
